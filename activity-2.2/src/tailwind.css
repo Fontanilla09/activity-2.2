@@ -1,0 +1,61 @@
+@import "tailwindcss";
+.main-layout {
+  display: flex;
+  gap: 20px;
+  background: #1c312a;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 5px 10px #000000;
+  border-style: solid line;
+  border-width: 2px;
+  border-color: #000000;
+
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  flex: 1;
+}
+
+.billing-summary {
+  background: #ffffff;
+  padding: 0;
+  overflow: hidden;
+}
+
+.summary-header {
+  background: #1b8daf;
+  color: white;
+  padding: 15px;
+}
+
+.total-display {
+  background: #2987d4;
+  color: rgb(231, 231, 231);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.calc-btn {
+  background: #286f9e;
+  color: rgb(224, 224, 224);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.YO{
+    background-color: rgb(175, 184, 187);
+}
+.reset-btn{
+    background-color: #a32f2f;
+    color: rgb(224, 224, 224);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
